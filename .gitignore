@@ -1,0 +1,29 @@
+
+# Python - archivos temporales
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Bases de datos locales
+*.db
+*.duckdb
+*.db.wal
+*.duckdb.wal
+
+# Dataset histórico descargable
+weather_completo.csv
+
+# Configuración sensible
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+*.tmp
+.DS_Store

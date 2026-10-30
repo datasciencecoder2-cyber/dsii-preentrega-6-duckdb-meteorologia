@@ -1,0 +1,26 @@
+PRE-ENTREGA 6 - CONTROL INDEPENDIENTE DE LA MUESTRA
+==================================================
+Origen: NOAA/Vega, CSV weather; extracto manual verificable de 30 registros.
+Datos incluidos: 30 filas, 2 ubicaciones, 4 combinaciones ubicacion/mes.
+
+Referencias aritméticas (calculadas sobre el extracto, no sobre la serie completa):
+New York 2012-01: 10 dias; temp media aproximada 2.78 C; lluvia 1.8 mm
+New York 2012-02:  5 dias; temp media aproximada 5.79 C; lluvia 0.8 mm
+Seattle  2012-01: 10 dias; temp media aproximada 6.50 C; lluvia 41.1 mm
+Seattle  2015-12:  5 dias; temp media aproximada 2.87 C; lluvia 10.1 mm
+
+Mayor maxima en muestra:
+New York: 2012-02-01, 17.8 C
+Seattle:  2012-01-01, 12.8 C
+
+Verificacion en entorno de preparacion:
+- Compilacion de archivos Python: OK.
+- Pruebas de muestra/estructura: 4/4 OK.
+- Seis pruebas que dependen de DuckDB: OMITIDAS por ausencia de la libreria.
+- Pendiente: ejecutar el proyecto completo con DuckDB en la maquina del usuario.
+
+En el equipo con DuckDB instalado ejecutar:
+  py -m pip install -r requirements.txt
+  py main.py
+  py -m unittest discover -s tests -v
+  py main.py --completo   [requiere Internet, primera vez]

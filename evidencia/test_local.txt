@@ -1,0 +1,15 @@
+test_calidad_treinta_filas (test_pipeline.TestConsultasDuckDB.test_calidad_treinta_filas) ... skipped 'DuckDB no instalado; instalar requirements.txt'
+test_conteos_eventos (test_pipeline.TestConsultasDuckDB.test_conteos_eventos) ... skipped 'DuckDB no instalado; instalar requirements.txt'
+test_datos_nulos_y_duplicados (test_pipeline.TestConsultasDuckDB.test_datos_nulos_y_duplicados) ... skipped 'DuckDB no instalado; instalar requirements.txt'
+test_filtro_de_5_dias (test_pipeline.TestConsultasDuckDB.test_filtro_de_5_dias) ... skipped 'DuckDB no instalado; instalar requirements.txt'
+test_maximos_dos_ciudades (test_pipeline.TestConsultasDuckDB.test_maximos_dos_ciudades) ... skipped 'DuckDB no instalado; instalar requirements.txt'
+test_promedios_mensuales (test_pipeline.TestConsultasDuckDB.test_promedios_mensuales) ... skipped 'DuckDB no instalado; instalar requirements.txt'
+test_csv_con_columna_faltante_se_rechaza (test_pipeline.TestDatos.test_csv_con_columna_faltante_se_rechaza) ... ok
+test_muestra_30_observaciones (test_pipeline.TestDatos.test_muestra_30_observaciones) ... ok
+test_muestra_tiene_dos_ubicaciones (test_pipeline.TestDatos.test_muestra_tiene_dos_ubicaciones) ... ok
+test_muestra_tiene_esquema_esperado (test_pipeline.TestDatos.test_muestra_tiene_esquema_esperado) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK (skipped=6)
